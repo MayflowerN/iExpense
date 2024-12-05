@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A6FBCB42C93CF4500D964A7 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6FBCB32C93CF4500D964A7 /* AddView.swift */; };
 		9A77EBBB2C92B5BB00FDA8A9 /* iExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A77EBBA2C92B5BB00FDA8A9 /* iExpenseApp.swift */; };
 		9A77EBBD2C92B5BB00FDA8A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A77EBBC2C92B5BB00FDA8A9 /* ContentView.swift */; };
 		9A77EBBF2C92B5BD00FDA8A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A77EBBE2C92B5BD00FDA8A9 /* Assets.xcassets */; };
 		9A77EBC22C92B5BD00FDA8A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A77EBC12C92B5BD00FDA8A9 /* Preview Assets.xcassets */; };
+		9A77EBC92C92B6C800FDA8A9 /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A77EBC82C92B6C800FDA8A9 /* Examples.swift */; };
+		9A94EAA02CD3061700690F65 /* AppTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A94EA9F2CD3061700690F65 /* AppTips.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A6FBCB32C93CF4500D964A7 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		9A77EBB72C92B5BB00FDA8A9 /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A77EBBA2C92B5BB00FDA8A9 /* iExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseApp.swift; sourceTree = "<group>"; };
 		9A77EBBC2C92B5BB00FDA8A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9A77EBBE2C92B5BD00FDA8A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A77EBC12C92B5BD00FDA8A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A77EBC82C92B6C800FDA8A9 /* Examples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
+		9A94EA9F2CD3061700690F65 /* AppTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTips.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,7 @@
 		9A77EBAE2C92B5BB00FDA8A9 = {
 			isa = PBXGroup;
 			children = (
+				9A94EA9F2CD3061700690F65 /* AppTips.swift */,
 				9A77EBB92C92B5BB00FDA8A9 /* iExpense */,
 				9A77EBB82C92B5BB00FDA8A9 /* Products */,
 			);
@@ -52,9 +59,11 @@
 			isa = PBXGroup;
 			children = (
 				9A77EBBA2C92B5BB00FDA8A9 /* iExpenseApp.swift */,
+				9A6FBCB32C93CF4500D964A7 /* AddView.swift */,
 				9A77EBBC2C92B5BB00FDA8A9 /* ContentView.swift */,
 				9A77EBBE2C92B5BD00FDA8A9 /* Assets.xcassets */,
 				9A77EBC02C92B5BD00FDA8A9 /* Preview Content */,
+				9A77EBC82C92B6C800FDA8A9 /* Examples.swift */,
 			);
 			path = iExpense;
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A6FBCB42C93CF4500D964A7 /* AddView.swift in Sources */,
 				9A77EBBD2C92B5BB00FDA8A9 /* ContentView.swift in Sources */,
+				9A94EAA02CD3061700690F65 /* AppTips.swift in Sources */,
+				9A77EBC92C92B6C800FDA8A9 /* Examples.swift in Sources */,
 				9A77EBBB2C92B5BB00FDA8A9 /* iExpenseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +284,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iExpense/Preview Content\"";
+				DEVELOPMENT_TEAM = 9FKHFCQNJL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iExpense/Preview Content\"";
+				DEVELOPMENT_TEAM = 9FKHFCQNJL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
